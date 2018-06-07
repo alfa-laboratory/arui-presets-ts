@@ -1,6 +1,6 @@
 import * as ts from 'typescript';
 
-class AnswersGiver {
+class  AnswersGiver {
     question: string = 'The answer to the ultimate question of life, the universe and everything is';
 
     getAnswer(): string {

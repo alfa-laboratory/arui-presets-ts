@@ -31,6 +31,16 @@ yarn add arui-presets-ts --dev
 #### eslint
 Для правильной работы eslint вместе с ts вы можете унаследовать конфигурацию вашего eslint от `arui-presets-ts/eslint`.
 
+К сожалению, разработчики eslint [очень нехотят](https://github.com/eslint/eslint/issues/3458) делать полноценную систему для общих конфигураций, так что вам 
+необходимо так же установить `peerDependencies`.
+
+```
+npm install eslint-plugin-typescript eslint-plugin-import typescript-eslint-parser eslint-plugin-react --save-dev
+```
+
+Эта конфигурация описывает только правила, специфичные для ts. Для полноценного линтинга рекомендуется использовать ее
+совместно с `arui-presets/eslint`.
+
 
 Файл `.eslintrc.js` вашего проекта:
 ```js
@@ -40,19 +50,6 @@ module.exports = {
         require.resolve('arui-presets-ts/eslint')
     ]
 };
-```
-
-#### tslint
-Вы можете унаследовать конфигурацию вашего tslint от `arui-presets-ts/tslint`.
-```json
-{
-    "extends": "arui-presets-ts/tslint"
-}
-```
-
-Использование в package.json вашего проекта
-```
-"lint-ts": "tslint -c tslint.json --project ./tsconfig.json --type-check src/**/*.ts"
 ```
 
 #### Конфигурация компилятора
