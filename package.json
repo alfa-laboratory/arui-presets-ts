@@ -6,6 +6,8 @@
   "author": "Good guys from Alfa Laboratory",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
     "ts-loader": "3.5.0",
     "typescript": "2.9.1"
   },
