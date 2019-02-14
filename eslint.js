@@ -1,12 +1,17 @@
 module.exports = {
-    parser: 'typescript-eslint-parser',
+    parser: '@typescript-eslint/parser',
     parserOptions: {
-        ecmaVersion: 6,
-        sourceType: 'module'
+        ecmaVersion: 2018,
+        sourceType: 'module',
+        ecmaFeatures: {
+            'jsx': true
+        }
     },
-    plugins: [
-        'typescript', 'import', 'react'
-    ],
+    env: {
+        browser: true,
+        node: true
+    },
+    plugins: ['@typescript-eslint', 'import', 'react'],
     settings: {
         'import/resolver': {
             node: {
@@ -20,22 +25,22 @@ module.exports = {
         }
     },
     rules: {
+        '@typescript-eslint/class-name-casing': 'error',
+        '@typescript-eslint/type-annotation-spacing': 'error',
+        '@typescript-eslint/member-delimiter-style': 'error',
+        '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+        '@typescript-eslint/no-array-constructor': 'error',
+        '@typescript-eslint/no-empty-interface': 'error',
+        '@typescript-eslint/no-unused-vars': 'error',
+        'no-undef': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/416
+        'import/prefer-default-export': 'off',
         'import/extensions': ['error', 'always', {
             js: 'never',
             jsx: 'never',
             ts: 'never',
             tsx: 'never'
         }],
-        'no-undef': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/416
-        'import/prefer-default-export': 'off', // see https://github.com/eslint/typescript-eslint-parser
         'space-infix-ops': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/449
-        'typescript/no-unused-vars': ['error'],
-        'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
-        'typescript/type-annotation-spacing': 'error',
-        'typescript/no-array-constructor': 'error',
-        'typescript/no-angle-bracket-type-assertion': 'error',
-        'typescript/class-name-casing': 'error',
-        'typescript/member-delimiter-style': 'error',
-        'typescript/no-empty-interface': 'error',
+        'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }]
     }
 };
