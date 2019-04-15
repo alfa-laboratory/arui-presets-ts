@@ -1,3 +1,13 @@
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v3.0.0...v4.0.0) (2019-04-15)
+
+
+### Features
+
+* upgrade babel-core to version 7 ([3b2769d](https://github.com/alfa-laboratory/arui-presets-ts/commit/3b2769d))
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v2.0.2...v3.0.0) (2019-02-14)
 
