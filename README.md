@@ -39,7 +39,7 @@ npm install eslint-plugin-typescript eslint-plugin-import typescript-eslint-pars
 ```
 
 Эта конфигурация описывает только правила, специфичные для ts. Для полноценного линтинга рекомендуется использовать ее
-совместно с `arui-presets/eslint`.
+совместно с `arui-presets-lint`.
 
 
 Файл `.eslintrc.js` вашего проекта:
