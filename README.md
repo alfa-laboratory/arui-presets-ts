@@ -35,7 +35,7 @@ yarn add arui-presets-ts --dev
 необходимо так же установить `peerDependencies`.
 
 ```
-npm install eslint-plugin-typescript eslint-plugin-import typescript-eslint-parser eslint-plugin-react --save-dev
+npm install eslint-plugin-import eslint-plugin-react @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
 ```
 
 Эта конфигурация описывает только правила, специфичные для ts. Для полноценного линтинга рекомендуется использовать ее
