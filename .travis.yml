@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+  - "lts/*"
+  # must be like https://github.com/alfa-laboratory/arui-scripts/blob/c5e4d141e5995a879609533c74741e9b33451000/package.json#L89
+  - "8.9.1"
