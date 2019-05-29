@@ -1,6 +1,7 @@
 Alfa Laboratory TS Presets
 ==========================
 
+![Travis (.org)](https://travis-ci.org/alfa-laboratory/arui-presets-ts.svg?branch=master)
 [![npm][npm-img]][npm]
 [![license][license-img]][license]
 
@@ -31,7 +32,7 @@ yarn add arui-presets-ts --dev
 #### eslint
 Для правильной работы eslint вместе с ts вы можете унаследовать конфигурацию вашего eslint от `arui-presets-ts/eslint`.
 
-К сожалению, разработчики eslint [очень нехотят](https://github.com/eslint/eslint/issues/3458) делать полноценную систему для общих конфигураций, так что вам 
+К сожалению, разработчики eslint [очень нехотят](https://github.com/eslint/eslint/issues/3458) делать полноценную систему для общих конфигураций, так что вам
 необходимо так же установить `peerDependencies`.
 
 ```
