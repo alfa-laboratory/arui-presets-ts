@@ -8,7 +8,13 @@ class  AnswersGiver {
     }
 }
 
+const actionType = '@TEST/ACTION_NAME';
+const action = {
+    type: actionType
+} as const;
+
 const giver = new AnswersGiver();
 
 console.log(giver.getAnswer());
+console.log(action);
 console.log(ts.version);
