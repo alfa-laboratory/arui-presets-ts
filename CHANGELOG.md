@@ -1,3 +1,18 @@
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.0.0...v4.1.0) (2019-05-30)
+
+
+### Bug Fixes
+
+* **yarn:** change registry url ([836964f](https://github.com/alfa-laboratory/arui-presets-ts/commit/836964f))
+
+
+### Features
+
+* **dependencies:** up typescript 3.3.3 -> 3.4.5 ([e372bca](https://github.com/alfa-laboratory/arui-presets-ts/commit/e372bca))
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v3.0.0...v4.0.0) (2019-04-15)
 
