@@ -1,3 +1,13 @@
+<a name="4.2.0"></a>
+# [4.2.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.1.0...v4.2.0) (2019-05-31)
+
+
+### Features
+
+* **dependencies:** bump typescript 3.4.5 ([7f21402](https://github.com/alfa-laboratory/arui-presets-ts/commit/7f21402))
+
+
+
 <a name="4.1.0"></a>
 # [4.1.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.0.0...v4.1.0) (2019-05-30)
 
