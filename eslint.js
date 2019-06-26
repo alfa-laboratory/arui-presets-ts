@@ -31,7 +31,10 @@ module.exports = {
         '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            { ignoreRestSiblings: true }
+        ],
         'no-undef': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/416
         'import/prefer-default-export': 'off',
         'import/extensions': ['error', 'always', {
