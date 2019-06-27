@@ -1,3 +1,13 @@
+<a name="4.2.1"></a>
+## [4.2.1](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.2.0...v4.2.1) (2019-06-27)
+
+
+### Bug Fixes
+
+* **eslint:** add rule about rest siblings ([5cf9d42](https://github.com/alfa-laboratory/arui-presets-ts/commit/5cf9d42))
+
+
+
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.1.0...v4.2.0) (2019-05-31)
 
