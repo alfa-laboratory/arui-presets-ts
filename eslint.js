@@ -33,7 +33,10 @@ module.exports = {
         '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
-        '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+        '@typescript-eslint/consistent-type-assertions': ['error', {
+            assertionStyle: 'as',
+            objectLiteralTypeAssertions: 'never'
+        }],
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-unused-vars': [
