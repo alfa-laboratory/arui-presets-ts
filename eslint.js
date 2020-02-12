@@ -33,10 +33,12 @@ module.exports = {
         '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
-        '@typescript-eslint/consistent-type-assertions': ['error', {
-            assertionStyle: 'as',
-            objectLiteralTypeAssertions: 'never'
-        }],
+        // TODO: turn on when fix it: https://github.com/facebook/create-react-app/issues/7709
+        '@typescript-eslint/consistent-type-assertions': 0,
+        // '@typescript-eslint/consistent-type-assertions': ['error', {
+        //     assertionStyle: 'as',
+        //     objectLiteralTypeAssertions: 'never'
+        // }],
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-unused-vars': [
