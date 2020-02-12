@@ -16,7 +16,7 @@ module.exports = {
         browser: true,
         node: true
     },
-    plugins: ['@typescript-eslint', 'import', 'react'],
+    plugins: ['@typescript-eslint', 'import', 'react', 'react-hooks'],
     settings: {
         'import/resolver': {
             node: {
@@ -54,6 +54,8 @@ module.exports = {
             tsx: 'never'
         }],
         'space-infix-ops': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/449
-        'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }]
+        'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn'
     }
 };

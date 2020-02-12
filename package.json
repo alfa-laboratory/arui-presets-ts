@@ -19,6 +19,7 @@
     "eslint": "6.6.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.3.0",
     "husky": "0.14.3"
   },
   "peerDependencies": {
