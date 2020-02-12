@@ -1,3 +1,18 @@
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v5.0.0...v6.0.0) (2020-02-12)
+
+
+### Bug Fixes
+
+* **rules:** turn off [@typescript-eslint](https://github.com/typescript-eslint)/consistent-type-assertions ([0ba724b](https://github.com/alfa-laboratory/arui-presets-ts/commit/0ba724b))
+
+
+### Features
+
+* **dependencies:** add eslint-plugin-react-hooks and extend eslint rules ([bc47159](https://github.com/alfa-laboratory/arui-presets-ts/commit/bc47159))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v4.3.0...v5.0.0) (2019-11-06)
 
