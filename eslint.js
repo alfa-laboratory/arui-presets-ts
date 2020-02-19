@@ -49,6 +49,7 @@ module.exports = {
         'space-infix-ops': 'off', // see https://github.com/eslint/typescript-eslint-parser/issues/449
         'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
         'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': 'warn'
+        'react-hooks/exhaustive-deps': 'warn',
+        'react/prop-types': 'off'
     }
 };
