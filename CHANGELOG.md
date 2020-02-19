@@ -1,3 +1,19 @@
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v6.0.0...v6.1.0) (2020-02-19)
+
+
+### Bug Fixes
+
+* fix eslint-import-resolver-typescript version ([088d0d1](https://github.com/alfa-laboratory/arui-presets-ts/commit/088d0d1))
+* update yarn.lock ([e98ae73](https://github.com/alfa-laboratory/arui-presets-ts/commit/e98ae73))
+
+
+### Features
+
+* update eslint config for tsconfig aliases ([16ec17c](https://github.com/alfa-laboratory/arui-presets-ts/commit/16ec17c))
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v5.0.0...v6.0.0) (2020-02-12)
 
