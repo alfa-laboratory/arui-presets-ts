@@ -1,3 +1,13 @@
+<a name="6.1.1"></a>
+## [6.1.1](https://github.com/alfa-laboratory/arui-presets-ts/compare/v6.1.0...v6.1.1) (2020-02-27)
+
+
+### Features
+
+* add eslint rule ([d107fd5](https://github.com/alfa-laboratory/arui-presets-ts/commit/d107fd5))
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/alfa-laboratory/arui-presets-ts/compare/v6.0.0...v6.1.0) (2020-02-19)
 
