@@ -1,3 +1,10 @@
+DEPRECATED
+==========
+
+Для линтинга - используйте [arui-presets-lint](https://github.com/alfa-laboratory/arui-presets-lint).
+Если вы использовали библиотеку для конфигурации `tsconfig` - вы можете использовать конфиг из [arui-scripts](https://github.com/alfa-laboratory/arui-scripts#конфигурация-typescript).
+
+
 Alfa Laboratory TS Presets
 ==========================
 
