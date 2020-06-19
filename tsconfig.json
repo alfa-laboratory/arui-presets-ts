@@ -5,6 +5,7 @@
             "es2015",
             "es2016"
         ],
+        "strict": true,
         "experimentalDecorators": true,
         "jsx": "react",
         "target": "es5",
